@@ -21,12 +21,15 @@ form input[type="text"] {
     border: none;
     border-bottom: 2px solid black;
     min-width: 350px;
+    padding-bottom: 5px;
 }
+
 form button {
     background-color: inherit;
     padding: .5rem 1rem;
     border-radius: 5px;
 }
+
 form button:hover {
     background-color: white;
     transition: 500ms ease-in;
